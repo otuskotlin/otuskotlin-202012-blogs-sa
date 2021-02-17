@@ -2,5 +2,5 @@ plugins {
     kotlin("jvm") apply false
 }
 
-group = rootProject.group
+group = "ru.otus.kotlin.blogs"
 version = rootProject.version

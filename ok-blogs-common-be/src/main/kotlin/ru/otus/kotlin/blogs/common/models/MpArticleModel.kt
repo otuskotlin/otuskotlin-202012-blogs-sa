@@ -7,7 +7,7 @@ data class MpArticleModel(
     override val createAt: String = "",
     override val icon: String = "",
     override val categoryId: String = "",
-    override val tagId: String = ""
+    override val tagIds: Set<String> = mutableSetOf()
 ): IMpArticleModel {
     companion object {
         val NONE = MpArticleModel()

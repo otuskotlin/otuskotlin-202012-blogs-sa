@@ -14,7 +14,7 @@ data class MpRequestCategoryCreate(
     override val onResponse: String? = null,
     override val startTime: String? = null,
     override val debug: IMpDebug? = null,
-    val createData: MpCategoryDto? = null
+    val createData: MpCategoryCreateDto? = null
 ): MpMessage(), IMpRequest {
 
     @Serializable

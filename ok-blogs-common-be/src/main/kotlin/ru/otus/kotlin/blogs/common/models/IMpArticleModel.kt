@@ -7,5 +7,5 @@ interface IMpArticleModel {
     val createAt: String
     val icon: String
     val categoryId: String
-    val tagId: String
+    val tagIds: Set<String>
 }

@@ -1,6 +1,8 @@
 plugins {
     kotlin("multiplatform") apply false
     kotlin("jvm") apply false
+
+    id("com.bmuschko.docker-java-application") apply false
 }
 
 group = "ru.otus.kotlin.blogs"

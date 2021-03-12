@@ -13,7 +13,7 @@ data class MpResponseArticleCreate(
     override val errors: List<ErrorDto>? = null,
     override val status: ResponseStatusDto? = null,
     override val debug: IMpDebug? = null,
-    val article: MpArticleCreateDto? = null
+    val article: MpArticleDto? = null
 ): MpMessage(), IMpResponse {
 
     @Serializable

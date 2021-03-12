@@ -13,7 +13,7 @@ data class MpResponseCategoryDelete(
     override val errors: List<ErrorDto>? = null,
     override val status: ResponseStatusDto? = null,
     override val debug: IMpDebug? = null,
-    val category: MpCategoryDto? = null,
+    val categoryId: String? = null,
     val deleted: Boolean? = null
 ): IMpResponse, MpMessage(){
 
